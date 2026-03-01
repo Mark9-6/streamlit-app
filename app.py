@@ -1,4 +1,9 @@
 import nltk
+import nltk
+
+nltk.download('punkt_tab')
+nltk.download('punkt')
+nltk.download('stopwords')
 
 try:
     nltk.data.find('tokenizers/punkt')
